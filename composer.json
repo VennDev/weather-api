@@ -1,0 +1,19 @@
+{
+    "name": "vennv/weather-api",
+    "description": "One rest-api about weather",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "vennv\\weather_api\\": "src/vennv/weather_api"
+        }
+    },
+    "authors": [
+        {
+            "name": "VennDev",
+            "email": "1050080275@sv.hcmunre.edu.vn"
+        }
+    ],
+    "require": {
+        "venndev/vosaka-http": "^1.1"
+    }
+}

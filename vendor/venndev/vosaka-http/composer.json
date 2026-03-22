@@ -1,0 +1,21 @@
+{
+  "name": "venndev/vosaka-http",
+  "description": "The library handles http requests from vosaka.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "vosaka\\http\\": "src/vosaka/http"
+    }
+  },
+  "authors": [
+    {
+      "name": "VennV",
+      "email": "hyplex9009@gmail.com"
+    }
+  ],
+  "require": {
+    "psr/http-message": "^2.0",
+    "venndev/vosaka-fourotines": "^1.4"
+  }
+}
