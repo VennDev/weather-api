@@ -254,16 +254,16 @@
         },
         {
             "name": "venndev/vosaka-http",
-            "version": "1.1.8",
+            "version": "1.1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vosaka-php/vosaka-http.git",
-                "reference": "6025c4ca40497e588e833a2679344294043c639f"
+                "reference": "c0d2c11b6bbc59751ed93341f310e58ea0eb9a0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vosaka-php/vosaka-http/zipball/6025c4ca40497e588e833a2679344294043c639f",
-                "reference": "6025c4ca40497e588e833a2679344294043c639f",
+                "url": "https://api.github.com/repos/vosaka-php/vosaka-http/zipball/c0d2c11b6bbc59751ed93341f310e58ea0eb9a0b",
+                "reference": "c0d2c11b6bbc59751ed93341f310e58ea0eb9a0b",
                 "shasum": ""
             },
             "require": {
@@ -289,9 +289,9 @@
             "description": "The library handles http requests from vosaka.",
             "support": {
                 "issues": "https://github.com/vosaka-php/vosaka-http/issues",
-                "source": "https://github.com/vosaka-php/vosaka-http/tree/1.1.8"
+                "source": "https://github.com/vosaka-php/vosaka-http/tree/1.1.9"
             },
-            "time": "2026-03-12T23:37:58+00:00"
+            "time": "2026-03-22T07:13:12+00:00"
         }
     ],
     "packages-dev": [],
