@@ -1,0 +1,22 @@
+# Composer
+/vendor/
+composer.phar
+.phpunit.result.cache
+
+# Configuration
+.env
+.env.local
+.env.*.local
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
