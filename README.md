@@ -41,6 +41,6 @@ Based on the current configuration, the server exposes:
 - `GET api/v1/health`: System health status.
 
 ## Dependencies
-- [vosaka-http](https://github.com/venndev/vosaka-http)
-- [vosaka-fourotines](https://github.com/venndev/vosaka-fourotines)
+- [vosaka-http](https://github.com/vosaka-php/vosaka-http)
+- [vosaka-fourotines](https://github.com/vosaka-php/vosaka-fourotines)
 # weather-api
