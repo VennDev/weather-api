@@ -21,7 +21,9 @@ final class WeatherHandler {
 		$lon = $parts[1];
 
 		/** @var \vosaka\http\message\Response $resultWeather */
-		$resultWeather = Browzr::get('https://api.open-meteo.com/v1/forecast?latitude=' . $lat . '&longitude=' . $lon . '&current_weather=true')->await();
+		$resultWeather = Browzr::get(
+			'https://api.open-meteo.com/v1/forecast?latitude=' . $lat . '&longitude=' . $lon . '&current_weather=true'
+		)->await();
 		$resultWeather = json_decode($resultWeather->getBody()->getContents(), true);
 
 		return Response::json($resultWeather);
