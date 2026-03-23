@@ -42,5 +42,5 @@ Based on the current configuration, the server exposes:
 
 ## Dependencies
 - [vosaka-http](https://github.com/vosaka-php/vosaka-http)
-- [vosaka-fourotines](https://github.com/vosaka-php/vosaka-fourotines)
+- [vosaka-foroutines](https://github.com/vosaka-php/vosaka-foroutines)
 # weather-api
